@@ -7,8 +7,8 @@ class Main extends Component {
   render() { 
     return ( 
       <div>
-        <Header></Header>
-        <Body></Body>
+        <Header />
+        <Body />
       </div>
      );
   }
