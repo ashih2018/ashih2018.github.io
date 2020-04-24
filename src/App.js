@@ -5,7 +5,6 @@ import './styles/App.scss';
 function App() {
   return (
     <div>
-      Hello world
       <Main></Main>
     </div>
   );
