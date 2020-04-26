@@ -6,8 +6,8 @@ class ExperienceTab extends Component {
     return (
       <div className='collapse-wrapper'>
         <Collapse>
-          <Panel className='panel' header={'WatchGuard'}>
-            <p>I did this</p>
+          <Panel className='panel' header={this.props.jobTitle}>
+            <p>{this.props.jobDescription}</p>
           </Panel>
         </Collapse>
       </div>
