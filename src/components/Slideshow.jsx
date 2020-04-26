@@ -1,10 +1,11 @@
 import React from 'react';
 import { Fade } from 'react-slideshow-image';
+import '../styles/Slideshow.scss';
 
 const fadeImages = [
-  '../images/Headshot.jpg',
-  '../images/AlexPicture.jpg',
-  '../images/Volleyball.jpg',
+  require('../images/Picture1.jpg'),
+  require('../images/Picture2.jpg'),
+  require('../images/Picture3.jpg'),
 ];
 
 const fadeProperties = {
@@ -19,28 +20,28 @@ const fadeProperties = {
 
 const Slideshow = () => {
   return (
-    <div className='slide-container'>
+    <span className='slide-container'>
       <Fade {...fadeProperties}>
         <div className='each-fade'>
           <div className='image-container'>
             <img src={fadeImages[0]} />
           </div>
-          <h2>First Slide</h2>
+          <h2>Me In My Apartment!</h2>
         </div>
         <div className='each-fade'>
           <div className='image-container'>
             <img src={fadeImages[1]} />
           </div>
-          <h2>Second Slide</h2>
+          <h2>My Dog Tappi</h2>
         </div>
         <div className='each-fade'>
           <div className='image-container'>
             <img src={fadeImages[2]} />
           </div>
-          <h2>Third Slide</h2>
+          <h2>Me And The Bois</h2>
         </div>
       </Fade>
-    </div>
+    </span>
   );
 };
 
