@@ -3,18 +3,18 @@ div {
     clear: both;
     display: block;
     height: 400px;
-  }
-  .tab-wrapper {
-    width: 70%;
-    height: 10%;
-    margin: auto;
-    .open {
-      background-color: lightblue;
-      border: solid;
-      border-radius: 5px;
-    }
-    .contents {
-      background-color: lightcoral;
+    .inner-wrapper {
+      width: 80%;
+      display: inline-block;
+      text-align: center;
+      .collapse-wrapper {
+        margin-top: 10px;
+        display: inline-block;
+        width: 80%;
+        background-color: lightblue;
+        border: solid;
+        border-radius: 5px;
+      }
     }
   }
 }
