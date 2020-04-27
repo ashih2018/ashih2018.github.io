@@ -5,11 +5,12 @@ import Collapse, { Panel } from 'rc-collapse';
 import 'rc-collapse/assets/index.css';
 
 const jobTitles = ['WatchGuard', 'University of Toronto', 'MITRE'];
-const jobDescriptions = [
+const jobShorts = [
   'Full stack developer',
   'Open source software developer',
   'Front end developer',
 ];
+const jobDescriptions = ['asda', 'asfdasdf', 'asfdasdfsf'];
 const jobIcons = [
   require('../images/Watchguard.jpg'),
   require('../images/UofT.png'),
@@ -23,6 +24,7 @@ class Experience extends Component {
       allExperiences.push(
         <ExperienceTab
           jobTitle={jobTitles[i]}
+          jobShort={jobShorts[i]}
           jobDescription={jobDescriptions[i]}
           jobIcon={jobIcons[i]}
         />

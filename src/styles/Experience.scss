@@ -31,9 +31,18 @@ div {
       }
     }
     span {
-      &.job-title {
+      &.job-intro {
         margin-left: 5%;
         float: left;
+        text-align: initial;
+        .job-title {
+          font-weight: bold;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          color: black;
+        }
+        .job-short {
+          font-size: small;
+        }
       }
     }
   }

@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 
-class FunFacts extends Component {
-  state = {  }
+class Projects extends Component {
   render() { 
     return ( 
       <div>
-        
+        <div>
+          as
+        </div>
       </div>
      );
   }
 }
  
-export default FunFacts;
+export default Projects;

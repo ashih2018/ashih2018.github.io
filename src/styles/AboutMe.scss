@@ -6,6 +6,15 @@ div {
     span {
       float: left;
     }
+    .icon-wrapper {
+      margin: 0.5%;
+      width: 20px;
+      height: 20px;
+      :hover {
+        color: grey;
+        cursor: pointer;
+      }
+    }
   }
   span {
     &.summary {
