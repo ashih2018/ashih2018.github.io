@@ -9,15 +9,15 @@ class AboutMe extends Component {
     return (
       <div id='about'>
         <Slideshow />
-        <div>
-          <span className='summary'>
+        <span className='right-wrapper'>
+          <div className='summary'>
             <h1> About Me </h1>I am computer science student studying at
             University of Toronto. My hobbies include listening to playing
             volleyball, listening to music, biking, playing board games, solving
             Rubik's cubes, and others.
-          </span>
-          <Contact />
-        </div>
+            <Contact />
+          </div>
+        </span>
       </div>
     );
   }

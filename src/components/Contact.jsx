@@ -6,20 +6,26 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 class Contact extends Component {
   state = {};
   gotoGithub() {
-    return
+    return;
   }
   render() {
     return (
-      <div>
+      <div className='icon-tray'>
         <span className='icon-wrapper'>
-          <FontAwesomeIcon icon={faEnvelope} />
+          <FontAwesomeIcon icon={faEnvelope} className='icon' />
         </span>
-        <span className='icon-wrapper' onClick={this.gotoGithub()}>
-          <FontAwesomeIcon icon={faGithub} />
-        </span>
-        <span className='icon-wrapper'>
-          <FontAwesomeIcon icon={faLinkedin} />
-        </span>
+        <a
+          href='https://github.com/ashih2018'
+          target='_blank'
+          className='icon-wrapper'>
+          <FontAwesomeIcon icon={faGithub} className='icon' />
+        </a>
+        <a
+          href='https://www.linkedin.com/in/alexandershih2022/'
+          target='_blank'
+          className='icon-wrapper'>
+          <FontAwesomeIcon icon={faLinkedin} className='icon' />
+        </a>
       </div>
     );
   }

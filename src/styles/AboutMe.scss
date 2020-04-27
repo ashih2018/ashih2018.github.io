@@ -5,27 +5,42 @@ div {
     position: relative;
     span {
       float: left;
-    }
-    .icon-wrapper {
-      margin: 0.5%;
-      width: 20px;
-      height: 20px;
-      :hover {
-        color: grey;
-        cursor: pointer;
+      &.right-wrapper {
+        height: 100%;
+        width: 50%;
+        .summary {
+          display: inline-block;
+          vertical-align: middle;
+          width: 50%;
+          position: absolute;
+          height: 100px;
+          top: 50%;
+          right: 4%;
+          margin-top: -50px;
+        }
       }
     }
-  }
-  span {
-    &.summary {
-      display: inline-block;
-      vertical-align: middle;
+    .icon-tray {
       width: 50%;
-      position: absolute;
-      height: 100px;
-      top: 50%;
-      right: 4%;
-      margin-top: -50px;
+      height: 10%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      margin-top: 5%;
+      .icon-wrapper {
+        margin: 0 3% 0 3%;
+        width: 40px;
+        height: 40px;
+        :hover {
+          color: grey;
+          cursor: pointer;
+        }
+        .icon {
+          color: black;
+          width: 40px;
+          height: 40px;
+        }
+      }
     }
   }
 }
