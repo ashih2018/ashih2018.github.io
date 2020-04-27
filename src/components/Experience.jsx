@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import ExperienceTab from './ExperienceTab';
 import '../styles/Experience.scss';
-import Collapse, { Panel } from 'rc-collapse';
 import 'rc-collapse/assets/index.css';
 
 const jobTitles = ['WatchGuard', 'University of Toronto', 'MITRE'];
@@ -12,9 +11,9 @@ const jobShorts = [
 ];
 const jobDescriptions = ['asda', 'asfdasdf', 'asfdasdfsf'];
 const jobIcons = [
-  require('../images/Watchguard.jpg'),
+  require('../images/Watchguard.png'),
   require('../images/UofT.png'),
-  require('../images/Mitre.jpg'),
+  require('../images/Mitre.png'),
 ];
 
 class Experience extends Component {

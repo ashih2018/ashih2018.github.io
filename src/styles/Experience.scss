@@ -4,6 +4,12 @@ div {
     clear: both;
     display: block;
     height: 400px;
+    margin-top: 5%;
+    .collapse-wrapper {
+      :hover {
+        background-color: lightgrey !important;
+      }
+    }
     .rc-collapse-header {
       height: 100px;
     }

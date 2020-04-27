@@ -8,7 +8,12 @@ class AboutMe extends Component {
   render() {
     return (
       <div id='about'>
-        <Slideshow />
+        <span className='slide-container'>
+          <div className='image-container'>
+            <img src={require('../images/Picture1.jpg')} />
+          </div>
+        </span>
+
         <span className='right-wrapper'>
           <div className='summary'>
             <h1> About Me </h1>I am computer science student studying at
