@@ -7,7 +7,7 @@ import '../styles/Header.scss';
 class Header extends Component {
   render() {
     return (
-      <div className='nav-wrapper'>
+      <div className='nav-wrapper' id='header'>
         <Navbar className='nav'>
           <Nav className='ml-auto'>
             <ScrollIntoView selector='#about'>

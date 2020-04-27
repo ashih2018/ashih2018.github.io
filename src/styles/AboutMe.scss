@@ -1,8 +1,11 @@
 div {
-  text-align: center;
   &#about {
-    height: 500px;
+    text-align: center;
+    height: 400px;
     position: relative;
+    span {
+      float: left;
+    }
   }
   span {
     &.summary {

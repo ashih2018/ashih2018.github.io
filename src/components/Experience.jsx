@@ -10,7 +10,11 @@ const jobDescriptions = [
   'Open source software developer',
   'Front end developer',
 ];
-const jobIcons = [require('../images/Picture1.jpg')];
+const jobIcons = [
+  require('../images/Watchguard.jpg'),
+  require('../images/UofT.png'),
+  require('../images/Mitre.jpg'),
+];
 
 class Experience extends Component {
   getExperience() {
@@ -20,6 +24,7 @@ class Experience extends Component {
         <ExperienceTab
           jobTitle={jobTitles[i]}
           jobDescription={jobDescriptions[i]}
+          jobIcon={jobIcons[i]}
         />
       );
     }

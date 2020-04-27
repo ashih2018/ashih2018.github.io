@@ -1,8 +1,12 @@
 div {
   .experience-wrapper {
+    text-align: center;
     clear: both;
     display: block;
     height: 400px;
+    .rc-collapse-header {
+      height: 100px;
+    }
     .inner-wrapper {
       width: 80%;
       display: inline-block;
@@ -14,6 +18,22 @@ div {
         background-color: lightblue;
         border: solid;
         border-radius: 5px;
+      }
+    }
+  }
+  .job-info {
+    width: 50%;
+    img {
+      float: left;
+      &.job-icon {
+        height: 50px;
+        width: 50px;
+      }
+    }
+    span {
+      &.job-title {
+        margin-left: 5%;
+        float: left;
       }
     }
   }

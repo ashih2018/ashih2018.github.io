@@ -1,0 +1,59 @@
+$bg-color: #333;
+$bl-color: #22bad9;
+
+.front-wrapper {
+  font-family: monospace;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.7;
+  background-color: #333333;
+  padding: 25px 50px;
+  float: none !important;
+}
+
+.TypistExample {
+  text-align: center;
+  &-header {
+    margin-top: 5%;
+    margin-bottom: 12%;
+    text-align: center;
+    width: 100%;
+    font-size: 3em;
+    color: $bl-color;
+  }
+  &-message {
+    color: hotpink;
+    width: 100%;
+    margin: auto;
+    .flash {
+      color: $bl-color;
+      font-weight: bold;
+      text-decoration: underline;
+
+      animation-name: blinker;
+      animation-duration: 0.7s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      @keyframes blinker {
+        0% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+.down-arrow {
+  color: lightblue;
+  display: inline-block;
+  :hover {
+    cursor: pointer;
+    color: lightgrey;
+  }
+}
