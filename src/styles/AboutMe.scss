@@ -1,10 +1,14 @@
 div {
   &#about {
     text-align: center;
-    height: 400px;
+    height: 300px;
     position: relative;
     span {
       float: left;
+      .image {
+        height: 50%;
+        width: 50%;
+      }
       &.right-wrapper {
         height: 100%;
         width: 50%;

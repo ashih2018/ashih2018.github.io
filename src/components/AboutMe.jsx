@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Slideshow from './Slideshow';
 import '../styles/AboutMe.scss';
 import Contact from './Contact';
 
@@ -10,7 +9,7 @@ class AboutMe extends Component {
       <div id='about'>
         <span className='slide-container'>
           <div className='image-container'>
-            <img src={require('../images/Picture1.jpg')} />
+            <img className='image' src={require('../images/Picture1.jpg')} alt='Picture of me in my apartment!' />
           </div>
         </span>
 
