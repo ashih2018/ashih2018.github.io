@@ -13,9 +13,12 @@ div {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;
-    width: 80%;
-    margin-top: 3%;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto !important;
+    div {
+      margin: 2%;
+    }
   }
   .cardbox-wrapper {
     .card-wrapper {

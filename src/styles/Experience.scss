@@ -13,6 +13,7 @@ div {
     clear: both;
     display: block;
     margin-top: 5%;
+    width: 90%;
     text-align: center;
     margin: 0 auto;
     h1 {
@@ -27,7 +28,7 @@ div {
       height: 100px;
     }
     .inner-wrapper {
-      width: 80%;
+      width: 100%;
       display: flex;
       flex-wrap: wrap;
       text-align: center;
@@ -36,7 +37,7 @@ div {
         margin: auto;
         margin-top: 10px;
         display: inline-block;
-        width: 80%;
+        width: 100%;
         background-color: lightblue;
         border: solid;
         border-radius: 5px;
@@ -46,6 +47,7 @@ div {
   .job-info {
     height: 100%;
     width: 100%;
+    display: flex;
     img {
       float: left;
       &.job-icon {

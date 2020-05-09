@@ -65,7 +65,7 @@ class Projects extends Component {
   }
   render() {
     return (
-      <div id='projects' className='project-wrapper'>
+      <div id='projects' className='project-wrapper section'>
         <div className='title-wrapper'>
           <h1 className='title'>Projects</h1>
         </div>

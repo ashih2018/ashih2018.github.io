@@ -21,7 +21,8 @@ class FrontPage extends Component {
           className='TypistExample-header'
           avgTypingDelay={40}
           startDelay={2000}
-          onTypingDone={this.onHeaderTyped}>
+          onTypingDone={this.onHeaderTyped}
+          cursor={{ hideWhenDone: true }}>
           Alexander Shih
         </Typist>
         <div className='TypistExample-content'>
@@ -29,20 +30,17 @@ class FrontPage extends Component {
             <Typist
               className='TypistExample-message'
               cursor={{ hideWhenDone: true }}>
+              <Typist.Delay ms={1000} />
               * Creative Student
-              <Typist.Delay ms={1250} />
               <br />
               * Motivated Computer Scientist
               <br />
-              * Alexander Shih
-              <br />
+              * Board Game Enthusiast
               <br />
               <br />
               <div className='down-arrow'>
                 <ScrollIntoView selector='#header'>
-                  <FontAwesomeIcon
-                    icon={faChevronDown}
-                  />
+                  <FontAwesomeIcon icon={faChevronDown} />
                 </ScrollIntoView>
               </div>
               {''}

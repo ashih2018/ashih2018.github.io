@@ -34,7 +34,7 @@ class Experience extends Component {
 
   render() {
     return (
-      <div id='experience' className='experience-wrapper'>
+      <div id='experience' className='experience-wrapper section'>
         <div className='inner-wrapper'>
           <div className='title-wrapper'>
             <h1 className='title'>My Experience</h1>
