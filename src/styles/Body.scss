@@ -1,7 +1,8 @@
 div {
   &.body-wrapper {
     margin-top: 2%;
-    height: 2000px;
+    display: flex;
+    flex-wrap: wrap;
   }
   .front-wrapper {
     height: 100vh;

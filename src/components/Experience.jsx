@@ -36,7 +36,9 @@ class Experience extends Component {
     return (
       <div id='experience' className='experience-wrapper'>
         <div className='inner-wrapper'>
-          <h1>My Experience</h1>
+          <div className='title-wrapper'>
+            <h1 className='title'>My Experience</h1>
+          </div>
           {this.getExperience()}
         </div>
       </div>

@@ -3,7 +3,7 @@ $bl-color: #22bad9;
 
 .front-wrapper {
   font-family: monospace;
-  font-size: 30px;
+  font-size: 2vw;
   font-weight: bold;
   line-height: 1.7;
   background-color: #333333;
@@ -18,7 +18,7 @@ $bl-color: #22bad9;
     margin-bottom: 12%;
     text-align: center;
     width: 100%;
-    font-size: 3em;
+    font-size: 8vw;
     color: $bl-color;
   }
   &-message {

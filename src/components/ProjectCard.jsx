@@ -14,9 +14,25 @@ const classes = makeStyles;
 class ProjectCard extends Component {
   state = {};
 
+  returnDevpost() {
+    if (this.props.projectDevpost != null) {
+      return (
+        <a
+          href={this.props.projectDevpost}
+          target='_blank'
+          className='devpost'>
+          <Button size='small' color='primary' >
+              Devpost
+          </Button>
+        </a>
+        
+      )
+    }
+  }
+
   render() {
     return (
-      <span>
+      <div className='cardbox-wrapper'>
         <Card className={`${classes.root} card-wrapper`}>
           <CardActionArea>
             <CardMedia
@@ -28,7 +44,7 @@ class ProjectCard extends Component {
               <Typography gutterBottom variant='h5' component='h2'>
                 {this.props.projectTitle}
               </Typography>
-              <Typography variant='body2' color='textSecondary' component='p'>
+              <Typography variant='body2' color='textSecondary' component='p' className='project-desc'>
                 {this.props.projectDescription}
               </Typography>
             </CardContent>
@@ -37,12 +53,10 @@ class ProjectCard extends Component {
             <Button size='small' color='primary'>
               Github
             </Button>
-            <Button size='small' color='primary'>
-              Devpost
-            </Button>
+            {this.returnDevpost()}
           </CardActions>
         </Card>
-      </span>
+      </div>
     );
   }
 }

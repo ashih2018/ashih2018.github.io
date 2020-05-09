@@ -1,13 +1,39 @@
 div {
-  .project-wrapper {
-    text-align: center;
-    margin-top: 3%;
+  &.title-wrapper {
+    width: 100%;
+    h1 {
+      &.title {
+        margin-bottom: -1%;
+        margin: auto;
+      }
+    }
   }
 
-  .card-wrapper {
-    max-width: 20%;
-    .media-wrapper {
-      height: 150px;
+  .project-wrapper {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 3%;
+  }
+  .cardbox-wrapper {
+    .card-wrapper {
+      width: 300px;
+      height: 100%;
+      display: inline-block;
+      margin: 2% 3%;
+      .project-desc {
+        white-space: pre-line;
+      }
+      a {
+        &.devpost {
+          text-decoration: none;
+        }
+      }
+      .media-wrapper {
+        height: 150px;
+      }
     }
   }
 }
