@@ -57,8 +57,9 @@ div {
     div {
       &.job-intro {
         margin-left: 5%;
-        float: left;
         text-align: initial;
+        display: flex;
+        align-items: center;
         .job-title {
           font-weight: bold;
           font-family: Verdana, Geneva, Tahoma, sans-serif;

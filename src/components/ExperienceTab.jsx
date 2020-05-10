@@ -7,8 +7,10 @@ class ExperienceTab extends Component {
       <div className='job-info'>
         <img src={this.props.jobIcon} className='job-icon' />
         <div className='job-intro'>
-          <div className='job-title'>{this.props.jobTitle}</div>
-          <div className='job-short'>{this.props.jobShort}</div>
+          <div className='description-wrapper'>
+            <div className='job-title'>{this.props.jobTitle}</div>
+            <div className='job-short'>{this.props.jobShort}</div>
+          </div>
         </div>
       </div>
     );

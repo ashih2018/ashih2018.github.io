@@ -58,6 +58,7 @@ class Projects extends Component {
           projectDescription={projectDescriptions[i]}
           projectImage={projectImages[i]}
           projectDevpost={devpost[i]}
+          projectGithub={githubs[i]}
         />
       );
     }

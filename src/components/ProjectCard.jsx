@@ -17,16 +17,12 @@ class ProjectCard extends Component {
   returnDevpost() {
     if (this.props.projectDevpost != null) {
       return (
-        <a
-          href={this.props.projectDevpost}
-          target='_blank'
-          className='devpost'>
-          <Button size='small' color='primary' >
-              Devpost
+        <a href={this.props.projectDevpost} target='_blank' className='devpost'>
+          <Button size='small' color='primary'>
+            Devpost
           </Button>
         </a>
-        
-      )
+      );
     }
   }
 
@@ -34,25 +30,37 @@ class ProjectCard extends Component {
     return (
       <div className='cardbox-wrapper'>
         <Card className={`${classes.root} card-wrapper`}>
-          <CardActionArea>
-            <CardMedia
-              className={`${classes.media} media-wrapper`}
-              image={this.props.projectImage}
-              title={this.props.projectTitle}
-            />
-            <CardContent>
-              <Typography gutterBottom variant='h5' component='h2'>
-                {this.props.projectTitle}
-              </Typography>
-              <Typography variant='body2' color='textSecondary' component='p' className='project-desc'>
-                {this.props.projectDescription}
-              </Typography>
-            </CardContent>
-          </CardActionArea>
-          <CardActions>
-            <Button size='small' color='primary'>
-              Github
-            </Button>
+          <a href={this.props.projectGithub} target='_blank' className='card-button'>
+            <CardActionArea>
+              <CardMedia
+                className={`${classes.media} media-wrapper`}
+                image={this.props.projectImage}
+                title={this.props.projectTitle}
+              />
+              <CardContent className='card-description'>
+                <Typography gutterBottom variant='h5' component='h2'>
+                  {this.props.projectTitle}
+                </Typography>
+                <Typography
+                  variant='body2'
+                  color='textSecondary'
+                  component='p'
+                  className='project-desc'>
+                  {this.props.projectDescription}
+                </Typography>
+              </CardContent>
+            </CardActionArea>
+          </a>
+
+          <CardActions className='button-links'>
+            <a
+              href={this.props.projectGithub}
+              target='_blank'
+              className='github'>
+              <Button size='small' color='primary'>
+                Github
+              </Button>
+            </a>
             {this.returnDevpost()}
           </CardActions>
         </Card>
