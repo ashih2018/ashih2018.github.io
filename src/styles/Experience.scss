@@ -1,6 +1,7 @@
 div {
   &.title-wrapper {
     width: 100%;
+    margin: 2%;
     h1 {
       &.title {
         margin-bottom: -1%;
@@ -18,11 +19,6 @@ div {
     margin: 0 auto;
     h1 {
       margin: auto;
-    }
-    .collapse-wrapper {
-      :hover {
-        background-color: lightgrey !important;
-      }
     }
     .rc-collapse-header {
       height: 100px;
