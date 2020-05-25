@@ -11,30 +11,35 @@ div {
   }
   &#about {
     width: 80%;
-    display: table;
+    display: flex;
     margin: 0 auto;
     text-align: center;
     height: 300px;
     position: relative;
     div {
-      .image {
-        width: 25%;
-        height: 25%;
-      }
-      &.right-wrapper {
-        height: 100%;
-        width: 50%;
-        .summary {
-          display: inline-block;
-          vertical-align: middle;
-          width: 50%;
-          position: absolute;
-          height: 100px;
-          top: 50%;
-          right: 4%;
-          margin-top: -50px;
+      &.image-container {
+        width: 400px;
+        .image {
+          height: 100%;
         }
       }
+      &.summary {
+        flex-grow: 1;
+      }
+      // &.right-wrapper {
+      //   height: 100%;
+      //   width: 50%;
+      //   .summary {
+      //     display: inline-block;
+      //     vertical-align: middle;
+      //     width: 50%;
+      //     position: absolute;
+      //     height: 100px;
+      //     top: 50%;
+      //     right: 4%;
+      //     margin-top: -50px;
+      //   }
+      // }
     }
     .icon-tray {
       width: 50%;
