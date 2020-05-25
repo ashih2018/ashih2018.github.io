@@ -13,7 +13,7 @@ class AboutMe extends Component {
           <Col sm={4}>
             <img
               src={require('../images/Picture1.jpg')}
-              alt='picture of me in my apartment!'
+              alt='Me in my apartment!'
               id='mypic'
             />
           </Col>

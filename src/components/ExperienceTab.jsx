@@ -5,7 +5,7 @@ class ExperienceTab extends Component {
   getTitleInfo() {
     return (
       <div className='job-info'>
-        <img src={this.props.jobIcon} className='job-icon' />
+        <img src={this.props.jobIcon} alt='Icon of my job experience' className='job-icon' />
         <div className='job-intro'>
           <div className='description-wrapper'>
             <div className='job-title'>{this.props.jobTitle}</div>

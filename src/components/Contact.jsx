@@ -15,30 +15,35 @@ class Contact extends Component {
         <a
           href={require('../images/Resume.pdf')}
           target='_blank'
+          rel="noopener noreferrer"
           className='icon-wrapper'>
           <FontAwesomeIcon icon={faFile} className='icon' />
         </a>
         <a
           href="mailto:alexanderchshih@gmail.com"
           target='_blank'
+          rel="noopener noreferrer"
           className='icon-wrapper'>
           <FontAwesomeIcon icon={faEnvelope} className='icon' />
         </a>
         <a
           href='https://github.com/ashih2018'
           target='_blank'
+          rel="noopener noreferrer"
           className='icon-wrapper'>
           <FontAwesomeIcon icon={faGithub} className='icon' />
         </a>
         <a
           href='https://www.linkedin.com/in/alexandershih2022/'
           target='_blank'
+          rel="noopener noreferrer"
           className='icon-wrapper'>
           <FontAwesomeIcon icon={faLinkedin} className='icon' />
         </a>
         <a
           href='https://chess.com/play/ashih2018'
           target='_blank'
+          rel="noopener noreferrer"
           className='icon-wrapper'>
           <FontAwesomeIcon icon={faChessKnight} className='icon' />
         </a>

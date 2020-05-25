@@ -17,7 +17,7 @@ class ProjectCard extends Component {
   returnDevpost() {
     if (this.props.projectDevpost != null) {
       return (
-        <a href={this.props.projectDevpost} target='_blank' className='devpost'>
+        <a href={this.props.projectDevpost} target='_blank' rel="noopener noreferrer" className='devpost'>
           <Button size='small' color='primary'>
             Devpost
           </Button>
@@ -30,7 +30,7 @@ class ProjectCard extends Component {
     return (
       <div className='cardbox-wrapper'>
         <Card className={`${classes.root} card-wrapper`}>
-          <a href={this.props.projectGithub} target='_blank' className='card-button'>
+          <a href={this.props.projectGithub} target='_blank' rel="noopener noreferrer" className='card-button'>
             <CardActionArea>
               <CardMedia
                 className={`${classes.media} media-wrapper`}
@@ -56,6 +56,7 @@ class ProjectCard extends Component {
             <a
               href={this.props.projectGithub}
               target='_blank'
+              rel="noopener noreferrer"
               className='github'>
               <Button size='small' color='primary'>
                 Github
