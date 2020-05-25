@@ -1,17 +1,9 @@
-.title-wrapper {
-  width: 100%;
-  margin: 2%;
-  h1 {
-    &.title {
-      margin-bottom: -1%;
-      margin: auto;
-    }
-  }
+#about {
+  margin-top: 8%;
 }
 #mypic {
   width: 80%;
   height: auto;
-  margin-left: 20%;
   margin-bottom: 7%;
   border-radius: 8px;
   border: 1px solid #353434;
@@ -19,58 +11,3 @@
 .summary {
   margin-top: 10%;
 }
-  // &#about {
-  //   width: 80%;
-  //   display: flex;
-  //   margin: 0 auto;
-  //   text-align: center;
-  //   height: 300px;
-  //   position: relative;
-  //   div {
-  //     &.image-container {
-  //       width: 400px;
-  //       .image {
-  //         height: 100%;
-  //       }
-  //     }
-  //     &.summary {
-  //       flex-grow: 1;
-  //     }
-  //     // &.right-wrapper {
-  //     //   height: 100%;
-  //     //   width: 50%;
-  //     //   .summary {
-  //     //     display: inline-block;
-  //     //     vertical-align: middle;
-  //     //     width: 50%;
-  //     //     position: absolute;
-  //     //     height: 100px;
-  //     //     top: 50%;
-  //     //     right: 4%;
-  //     //     margin-top: -50px;
-  //     //   }
-  //     // }
-  //   }
-  //   .icon-tray {
-  //     width: 50%;
-  //     height: 10%;
-  //     margin: 0 auto;
-  //     display: flex;
-  //     justify-content: center;
-  //     margin-top: 2%;
-  //     .icon-wrapper {
-  //       margin: 0 3% 0 3%;
-  //       width: 40px;
-  //       height: 40px;
-  //       :hover {
-  //         color: grey;
-  //         cursor: pointer;
-  //       }
-  //       .icon {
-  //         color: black;
-  //         width: 40px;
-  //         height: 40px;
-  //       }
-  //     }
-  //   }
-  // }

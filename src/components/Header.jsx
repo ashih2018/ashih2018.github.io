@@ -11,15 +11,15 @@ class Header extends Component {
         <Navbar className='nav'>
           <Nav className='ml-auto'>
             <ScrollIntoView selector='#about'>
-              <Nav.Link>About Me</Nav.Link>
+              <Nav.Link>about me</Nav.Link>
             </ScrollIntoView>
             <ScrollIntoView selector='#experience'>
-              <Nav.Link>Experience</Nav.Link>
+              <Nav.Link>experience</Nav.Link>
             </ScrollIntoView>
             <ScrollIntoView selector='#projects'>
-              <Nav.Link>Personal Projects</Nav.Link>
+              <Nav.Link>personal projects</Nav.Link>
             </ScrollIntoView>
-            <Nav.Link href='#other'>Other</Nav.Link>
+            {/* <Nav.Link href='#other'>Other</Nav.Link> */}
           </Nav>
         </Navbar>
       </div>

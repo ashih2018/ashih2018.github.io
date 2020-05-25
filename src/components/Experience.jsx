@@ -2,19 +2,21 @@ import React, { Component } from 'react';
 import ExperienceTab from './ExperienceTab';
 import '../styles/Experience.scss';
 import 'rc-collapse/assets/index.css';
+import { watchguard, uoft, mitre } from '../alltext.json'
 
 const jobTitles = ['WatchGuard', 'University of Toronto', 'MITRE'];
 const jobShorts = [
-  'Full stack developer',
-  'Open source software developer',
-  'Front end developer',
+  'full stack software engineering intern',
+  'open source software developer',
+  'software engineering intern',
 ];
-const jobDescriptions = ['asda', 'asfdasdf', 'asfdasdfsf'];
+const jobDescriptions = [watchguard, uoft, mitre];
 const jobIcons = [
   require('../images/Watchguard.png'),
   require('../images/UofT.png'),
   require('../images/Mitre.png'),
 ];
+const foo = uoft;
 
 class Experience extends Component {
   getExperience() {
@@ -37,9 +39,9 @@ class Experience extends Component {
       <div id='experience' className='experience-wrapper section'>
         <div className='inner-wrapper'>
           <div className='title-wrapper'>
-            <h1 className='title'>My Experience</h1>
+            <h1 className='title'>my experience</h1>
           </div>
-          {this.getExperience()}
+          {uoft}
         </div>
       </div>
     );

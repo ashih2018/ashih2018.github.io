@@ -26,7 +26,7 @@ class FrontPage extends Component {
           hey there!
           <br />
           <Typist.Delay ms={500} />
-          my name is Alex
+          my name is alex
           <br />
           <Typist.Delay ms={500} />
           welcome to my website :)

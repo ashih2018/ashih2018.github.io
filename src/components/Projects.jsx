@@ -68,7 +68,7 @@ class Projects extends Component {
     return (
       <div id='projects' className='project-wrapper section'>
         <div className='title-wrapper'>
-          <h1 className='title'>Projects</h1>
+          <h1 className='title'>my projects</h1>
         </div>
 
         <div id='projects' className='project-wrapper'>
