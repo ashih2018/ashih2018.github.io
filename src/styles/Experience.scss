@@ -13,7 +13,7 @@ div {
     text-align: center;
     clear: both;
     display: block;
-    margin-top: 5%;
+    margin-top: 10%;
     width: 90%;
     text-align: center;
     margin: 0 auto;
@@ -37,6 +37,9 @@ div {
         background-color: lightblue;
         border: solid;
         border-radius: 5px;
+        .panel {
+          white-space: pre-line;
+        }
       }
     }
   }

@@ -19,9 +19,11 @@ class AboutMe extends Component {
           </Col>
 
           <Col className='summary' sm={8}>
-            <h1> about me </h1>
+            <h1 className='header'> about me </h1>
+            <div className='text'>
             { summary }
-            <contact />
+            </div>
+            <Contact />
           </Col>
         </Row>
       </Container>

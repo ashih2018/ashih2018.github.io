@@ -20,7 +20,7 @@ class ExperienceTab extends Component {
       <div className='collapse-wrapper'>
         <Collapse>
           <Panel className='panel' header={this.getTitleInfo()}>
-            <p>{this.props.jobDescription}</p>
+            <p className='text'>{this.props.jobDescription}</p>
           </Panel>
         </Collapse>
       </div>

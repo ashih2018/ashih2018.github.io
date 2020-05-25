@@ -16,7 +16,6 @@ const jobIcons = [
   require('../images/UofT.png'),
   require('../images/Mitre.png'),
 ];
-const foo = uoft;
 
 class Experience extends Component {
   getExperience() {
@@ -39,9 +38,9 @@ class Experience extends Component {
       <div id='experience' className='experience-wrapper section'>
         <div className='inner-wrapper'>
           <div className='title-wrapper'>
-            <h1 className='title'>my experience</h1>
+            <h1 className='title header'>my experience</h1>
           </div>
-          {uoft}
+          {this.getExperience()}
         </div>
       </div>
     );

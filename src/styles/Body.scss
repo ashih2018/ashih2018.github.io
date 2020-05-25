@@ -21,7 +21,12 @@ div {
     margin: 0;
   }
   div &.section {
-    margin-top: 2% !important;
+    margin-top: 4% !important;
     margin-bottom: 2% !important;
   }
 }
+.text {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+
