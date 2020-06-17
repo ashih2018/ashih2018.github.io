@@ -13,15 +13,25 @@ const projectTitles = [
   'Tron',
 ];
 const projectDescriptions = [
-  'Hack the Northeast 2020 Most Viable Startup Winner \nGoogle Chrome extension that incorporates charitable donations in your daily purchases, a couple cents at a time!',
+  ' \nGoogle Chrome extension that incorporates charitable donations in your daily purchases!',
   '3D interactive Rubik\'s Cube written with Pygame and OpenGL.',
-  'UofT VII Hacks Winner \nApplication designed to simplify bank payments in a person\'s life.',
+  'Application designed to simplify daily bank payments in a person\'s life.',
   'A website hosted with Flask which helps users make healthy eating choices with the Google Cloud Vision AI library.',
   'Web application that encourages walking through friendly competition by betting Ethereum against friends and family.',
   "An improved course finder for UofT students which adds many queries which UofT's current course finder does not provide.",
   'Program that models the functionality of an ATM with powerful advanced features like image check recognition.',
   'A game written with Pygame based off of the movie Tron, where users try to avoid crashing into each other!',
 ];
+const projectWinner = [
+  'Hack the Northeast 2020 Most Viable Startup Winner',
+  null,
+  'UofT VII Hacks Royal Bank of Canada\'s Most Innovative Solution Winner',
+  null,
+  null,
+  null,
+  null,
+  null,
+]
 const projectImages = [
   require('../images/Cents.png'),
   require('../images/Rubiks.png'),
@@ -43,6 +53,7 @@ const githubs = [
   'https://github.com/ashih2018/tron',
 ];
 const devpost = [
+  'https://devpost.com/software/charity-tracker-chrome-extension',
   null,
   'https://devpost.com/software/nimo-rbc-s-convenient-payment-application',
   'https://devpost.com/software/meal-prep-4-u',
@@ -59,6 +70,7 @@ class Projects extends Component {
       allProjects.push(
         <ProjectCard
           projectTitle={projectTitles[i]}
+          projectWinner={projectWinner[i]}
           projectDescription={projectDescriptions[i]}
           projectImage={projectImages[i]}
           projectDevpost={devpost[i]}

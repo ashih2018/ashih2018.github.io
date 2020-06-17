@@ -46,6 +46,9 @@ class ProjectCard extends Component {
                   color='textSecondary'
                   component='p'
                   className='project-desc'>
+                  <div className='project-winner'>
+                    {this.props.projectWinner}
+                  </div>
                   {this.props.projectDescription}
                 </Typography>
               </CardContent>
