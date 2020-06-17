@@ -1,12 +1,12 @@
-$bg-color: #333;
-$bl-color: #22bad9;
+$bg-color: #67676b;
+$bl-color: #60b4ef;
 
 .front-wrapper {
   font-family: monospace;
   font-size: 2vw;
   font-weight: bold;
   line-height: 1.7;
-  background-color: #333333;
+  background-color: $bg-color;
   padding: 25px 50px;
   float: none !important;
 }
@@ -18,11 +18,11 @@ $bl-color: #22bad9;
     margin-bottom: 12%;
     text-align: center;
     width: 100%;
-    font-size: 5vw;
+    font-size: 3vw;
     color: $bl-color;
   }
   &-message {
-    color: lightblue;
+    color: $bl-color;
     width: 100%;
     margin: auto;
     .flash {
@@ -50,7 +50,7 @@ $bl-color: #22bad9;
 }
 
 .down-arrow {
-  color: lightblue;
+  color: $bl-color;
   display: inline-block;
   :hover {
     cursor: pointer;

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from './Header';
 import Body from './Body';
 import FrontPage from './FrontPage';
+import Footer from './Footer';
 
 class Main extends Component {
   state = {};
@@ -11,6 +12,7 @@ class Main extends Component {
         <FrontPage />
         <Header />
         <Body />
+        <Footer />
       </div>
     );
   }

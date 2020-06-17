@@ -3,6 +3,7 @@ import '../styles/Projects.scss';
 import ProjectCard from './ProjectCard.jsx';
 
 const projectTitles = [
+  "Give Your Two Cents",
   "3D Rubik's Cube",
   'NiMO',
   'MealPrep 4 U',
@@ -12,8 +13,9 @@ const projectTitles = [
   'Tron',
 ];
 const projectDescriptions = [
-  "3D interactive Rubik's Cube written with Pygame and OpenGL.",
-  "UofT VII Hacks Winner \n Application designed to simplify bank payments in a person's life.",
+  'Hack the Northeast 2020 Most Viable Startup Winner \nGoogle Chrome extension that incorporates charitable donations in your daily purchases, a couple cents at a time!',
+  '3D interactive Rubik\'s Cube written with Pygame and OpenGL.',
+  'UofT VII Hacks Winner \nApplication designed to simplify bank payments in a person\'s life.',
   'A website hosted with Flask which helps users make healthy eating choices with the Google Cloud Vision AI library.',
   'Web application that encourages walking through friendly competition by betting Ethereum against friends and family.',
   "An improved course finder for UofT students which adds many queries which UofT's current course finder does not provide.",
@@ -21,6 +23,7 @@ const projectDescriptions = [
   'A game written with Pygame based off of the movie Tron, where users try to avoid crashing into each other!',
 ];
 const projectImages = [
+  require('../images/Cents.png'),
   require('../images/Rubiks.png'),
   require('../images/Nimo.png'),
   require('../images/MealPrep.png'),
@@ -30,6 +33,7 @@ const projectImages = [
   require('../images/Tron.png'),
 ];
 const githubs = [
+  'https://github.com/TimothyWang56/give-your-two-cents',
   'https://github.com/ashih2018/rubiks-cube',
   'https://github.com/codeturtle00/rbc-nimo-db',
   'https://github.com/ashih2018/meal-prep-4-u',

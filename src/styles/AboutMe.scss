@@ -10,7 +10,8 @@
 }
 @font-face {
   font-family: 'Quicksand';
-  src: url('./Quicksand-Bold.otf')
+  src: url('./Quicksand-Bold.otf') format('opentype'),
+       url('./quicksand-bold-webfont.woff') format('woff');
 }
 .header {
   margin-bottom: 5%;
