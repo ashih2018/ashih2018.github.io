@@ -34,7 +34,7 @@ const projectWinner = [
 ]
 const projectImages = [
   require('../images/Cents.png'),
-  require('../images/Rubiks.png'),
+  require('../images/RubiksGif.gif'),
   require('../images/Nimo.png'),
   require('../images/MealPrep.png'),
   require('../images/Fitcoin.png'),
