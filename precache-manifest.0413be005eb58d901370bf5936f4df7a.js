@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cd16d20e4e0d3a515861644f61c4f2a3",
+    "revision": "5b12df27210eae14f8f2cb069b84605d",
     "url": "/index.html"
   },
   {
-    "revision": "d6a69ec2ce7d29e02e7c",
+    "revision": "3be01f944dfe05fce910",
     "url": "/static/css/2.26613055.chunk.css"
   },
   {
-    "revision": "19dee9f516ad89e47734",
-    "url": "/static/css/main.cafd279b.chunk.css"
+    "revision": "d1c302b36423bcc40fc9",
+    "url": "/static/css/main.886e3e6f.chunk.css"
   },
   {
-    "revision": "d6a69ec2ce7d29e02e7c",
-    "url": "/static/js/2.732941da.chunk.js"
+    "revision": "3be01f944dfe05fce910",
+    "url": "/static/js/2.e3f6ad4f.chunk.js"
   },
   {
     "revision": "5e9b6f5c16b720e8a86875f97734673e",
-    "url": "/static/js/2.732941da.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.e3f6ad4f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "19dee9f516ad89e47734",
-    "url": "/static/js/main.16baea5c.chunk.js"
+    "revision": "d1c302b36423bcc40fc9",
+    "url": "/static/js/main.4cc88cd9.chunk.js"
   },
   {
     "revision": "8074b3ff942cbc5556c5",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "89d2e6eb5f7274d03b6b93da9a835f92",
     "url": "/static/media/ATM.89d2e6eb.png"
+  },
+  {
+    "revision": "8ca62474a050c8ea6c0b2cb29dff504a",
+    "url": "/static/media/Cents.8ca62474.png"
   },
   {
     "revision": "ad22ece6fad24ea55044f6547f8c782d",
@@ -60,6 +64,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Resume.7922cea2.pdf"
   },
   {
+    "revision": "affcfa7e9f2ed142787e221e9792d772",
+    "url": "/static/media/RubiksGif.affcfa7e.gif"
+  },
+  {
     "revision": "bcd82eb3752dfe14db2ae69b8fdc14f8",
     "url": "/static/media/UofT.bcd82eb3.png"
   },
@@ -74,6 +82,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e3c79cc270db3cdcd4a6404b71b2104b",
     "url": "/static/media/Watchguard.e3c79cc2.png"
+  },
+  {
+    "revision": "056f73aed40c7a77a316a96ea41f678e",
+    "url": "/static/media/quicksand-bold-webfont.056f73ae.woff"
   },
   {
     "revision": "5cb7edfceb233100075dc9a1e12e8da3",
