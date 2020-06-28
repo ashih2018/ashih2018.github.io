@@ -80,6 +80,7 @@ class Projects extends Component {
     }
     return allProjects;
   }
+  
   render() {
     return (
       <div id='projects' className='project-wrapper section'>

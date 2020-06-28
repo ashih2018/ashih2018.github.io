@@ -23,6 +23,10 @@ div {
   div &.section {
     margin-top: 4% !important;
     margin-bottom: 2% !important;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto !important;
   }
 }
 .text {

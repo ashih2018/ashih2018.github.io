@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import '../styles/AboutMe.scss';
 import Contact from './Contact';
 import { Container, Row, Col } from 'react-bootstrap'
 import { summary } from '../alltext.json'
+import '../styles/AboutMe.scss';
 
 class AboutMe extends Component {
   state = {};

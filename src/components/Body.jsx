@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import AboutMe from './AboutMe';
 import Experience from './Experience';
-import '../styles/Body.scss';
 import Projects from './Projects';
+import Skills from './Skills';
+import '../styles/Body.scss';
 
 class Body extends Component {
   state = {};
@@ -13,6 +14,7 @@ class Body extends Component {
           <AboutMe />
           <Experience />
           <Projects />
+          <Skills />
         </div>
       </div>
     );
