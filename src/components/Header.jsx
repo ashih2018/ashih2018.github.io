@@ -19,6 +19,9 @@ class Header extends Component {
             <ScrollIntoView selector='#projects'>
               <Nav.Link>personal projects</Nav.Link>
             </ScrollIntoView>
+            <ScrollIntoView selector='#skills'>
+              <Nav.Link>skills</Nav.Link>
+            </ScrollIntoView>
             {/* <Nav.Link href='#other'>Other</Nav.Link> */}
           </Nav>
         </Navbar>
