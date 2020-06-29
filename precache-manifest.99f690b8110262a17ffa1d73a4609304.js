@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5b12df27210eae14f8f2cb069b84605d",
+    "revision": "ad2b05abfdc5a9b7e1bf936576142af0",
     "url": "/index.html"
   },
   {
-    "revision": "3be01f944dfe05fce910",
+    "revision": "1942b267a0b42d1b87e4",
     "url": "/static/css/2.26613055.chunk.css"
   },
   {
-    "revision": "d1c302b36423bcc40fc9",
-    "url": "/static/css/main.886e3e6f.chunk.css"
+    "revision": "06af717484454d0640dd",
+    "url": "/static/css/main.71a6e545.chunk.css"
   },
   {
-    "revision": "3be01f944dfe05fce910",
-    "url": "/static/js/2.e3f6ad4f.chunk.js"
+    "revision": "1942b267a0b42d1b87e4",
+    "url": "/static/js/2.a769ebb2.chunk.js"
   },
   {
     "revision": "5e9b6f5c16b720e8a86875f97734673e",
-    "url": "/static/js/2.e3f6ad4f.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.a769ebb2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d1c302b36423bcc40fc9",
-    "url": "/static/js/main.4cc88cd9.chunk.js"
+    "revision": "06af717484454d0640dd",
+    "url": "/static/js/main.f40c04fd.chunk.js"
   },
   {
     "revision": "8074b3ff942cbc5556c5",
@@ -32,12 +32,44 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ATM.89d2e6eb.png"
   },
   {
+    "revision": "88d47676b5daf658c4cda0852164e04c",
+    "url": "/static/media/C.88d47676.png"
+  },
+  {
+    "revision": "72b1634cdf0f903e181cb4b56710f53c",
+    "url": "/static/media/CSS.72b1634c.png"
+  },
+  {
     "revision": "8ca62474a050c8ea6c0b2cb29dff504a",
     "url": "/static/media/Cents.8ca62474.png"
   },
   {
+    "revision": "bfc8530d272f878aca3645d0faf615a4",
+    "url": "/static/media/Figma.bfc8530d.svg"
+  },
+  {
     "revision": "ad22ece6fad24ea55044f6547f8c782d",
     "url": "/static/media/Fitcoin.ad22ece6.png"
+  },
+  {
+    "revision": "6936da0e7ae190077f2fc6428491dc61",
+    "url": "/static/media/Flask.6936da0e.png"
+  },
+  {
+    "revision": "664a8c00ef526bf33edf55808601d461",
+    "url": "/static/media/HTML.664a8c00.png"
+  },
+  {
+    "revision": "a7fd72b89f1b1bba4ec9b4200bdeb288",
+    "url": "/static/media/Java.a7fd72b8.png"
+  },
+  {
+    "revision": "0a0cdabf5026edbf098979c0b60aee7d",
+    "url": "/static/media/Javascript.0a0cdabf.png"
+  },
+  {
+    "revision": "a397460c103a310f9ac429fdee79cf9c",
+    "url": "/static/media/Jira.a397460c.svg"
   },
   {
     "revision": "172d11beea8673bfc7647d698fd6cfd3",
@@ -52,6 +84,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Nimo.f6abfdac.png"
   },
   {
+    "revision": "279041e43d54a32a804a2028e5235b08",
+    "url": "/static/media/OpenGL.279041e4.png"
+  },
+  {
     "revision": "a04ff27efa5c0d2a5b4d39290e353aab",
     "url": "/static/media/Picture1.a04ff27e.jpg"
   },
@@ -60,12 +96,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Quicksand-Bold.a1d3f9c4.otf"
   },
   {
+    "revision": "831ab98f3536c19fcc6eaa78267e5406",
+    "url": "/static/media/Rails.831ab98f.png"
+  },
+  {
+    "revision": "638be90904f9f9248d3c69cb2992c562",
+    "url": "/static/media/React.638be909.png"
+  },
+  {
     "revision": "7922cea20c4bbb943edf8bf75085b2c2",
     "url": "/static/media/Resume.7922cea2.pdf"
   },
   {
     "revision": "affcfa7e9f2ed142787e221e9792d772",
     "url": "/static/media/RubiksGif.affcfa7e.gif"
+  },
+  {
+    "revision": "7ff47bbe8aa2f6c9728a3c94ca610e8e",
+    "url": "/static/media/Ruby.7ff47bbe.png"
+  },
+  {
+    "revision": "74c362907475d0d7f0d59d0fb662135c",
+    "url": "/static/media/Sass.74c36290.png"
+  },
+  {
+    "revision": "020b66fbcc2fa5b18d53ced9fc32064c",
+    "url": "/static/media/Solidity.020b66fb.png"
   },
   {
     "revision": "bcd82eb3752dfe14db2ae69b8fdc14f8",
