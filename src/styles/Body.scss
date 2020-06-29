@@ -6,7 +6,7 @@ div {
     background-image: url(../images/Wallpaper.jpg);
     background-color: rgba(255,255,255,.80);
     background-blend-mode: lighten;
-    background-size: 150%;
+    background-size: 180%;
     background-repeat: no-repeat;
   }
   &.body-wrapper {
@@ -28,7 +28,6 @@ div {
     text-align: center;
     justify-content: center;
     width: 100%;
-    margin: 0 auto !important;
   }
 }
 .text {
