@@ -24,6 +24,8 @@ const frameworks = [
 
 const other = [
   require('../images/skills/other/Android.png'),
+  require('../images/skills/other/RStudio.png'),
+  require('../images/skills/other/Matlab.png'),
   require('../images/skills/other/Git.png'),
   require('../images/skills/other/Figma.svg'),
   require('../images/skills/other/Mongo.png'),
